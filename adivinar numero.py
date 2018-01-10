@@ -1,8 +1,8 @@
 numero_adivinar = 2
 
-user_number = int(input("Adivina un numero: "))
+numero_usuario = int(input("Adivina un numero: "))
 
-if numero_adivinar == user_number:
+if numero_adivinar == numero_usuario:
     print("Has ganado")
 else:
     print("Has Perdido")
